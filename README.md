@@ -1,5 +1,7 @@
 # The Credit Trade-off
 
+[Open the dashboard](https://codeventurer144.github.io/the-credit-trade-off/)
+
 I built this project to look at what happens when a lender tries to approve more loans. Getting the approval numbers up is one part. The loans still need to be affordable for the borrower, and the business needs to cover its losses and costs.
 
 The dashboard follows that decision from the application stage through to repayments, collections and profitability. It uses D3.js, with SQL and Python behind the analysis.
