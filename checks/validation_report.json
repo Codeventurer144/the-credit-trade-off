@@ -1,0 +1,210 @@
+{
+  "synthetic": true,
+  "default_dashboard_date": "2025-06-30",
+  "followup_end": "2026-06-30",
+  "counts": {
+    "borrowers": 31968,
+    "applications": 50000,
+    "loans": 22404,
+    "payments": 58357,
+    "loan_snapshots": 88659,
+    "collection_assignments": 5110
+  },
+  "decisions": [
+    {
+      "decision": "approved",
+      "applications": 25534
+    },
+    {
+      "decision": "declined",
+      "applications": 23399
+    },
+    {
+      "decision": "review",
+      "applications": 1067
+    }
+  ],
+  "portfolio_at_default_date": {
+    "snapshot_date": "2025-06-30",
+    "outstanding_principal_kobo": 17333115135,
+    "active_loans": 3819,
+    "dpd30_principal_kobo": 1666515491,
+    "dpd30_balance_rate": 0.09614633480596216
+  },
+  "collections": [
+    {
+      "arm": "control",
+      "assigned_borrowers": 2565,
+      "cured_borrowers": 376,
+      "cure_rate": 0.14658869395711502,
+      "recovered_principal_kobo": 948833373,
+      "recovery_rate": 0.0689195179390838,
+      "cost_kobo": 38475000,
+      "cost_per_cured_kobo": 102327.12765957447
+    },
+    {
+      "arm": "treatment",
+      "assigned_borrowers": 2545,
+      "cured_borrowers": 613,
+      "cure_rate": 0.24086444007858546,
+      "recovered_principal_kobo": 1590283389,
+      "recovery_rate": 0.11774672944347649,
+      "cost_kobo": 89075000,
+      "cost_per_cured_kobo": 145309.9510603589
+    }
+  ],
+  "matured_defaults": 1383,
+  "checks": [
+    {
+      "check": "SQLite integrity",
+      "passed": true,
+      "observed": "ok",
+      "expected": "ok"
+    },
+    {
+      "check": "Foreign key violations",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Application count",
+      "passed": true,
+      "observed": 50000,
+      "expected": 50000
+    },
+    {
+      "check": "Income evidence median",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Only prior complete income months",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Schedule principal equals disbursement",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Disbursement requires approval and acceptance",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Approval affordability and amount caps",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Repayment burden ceiling",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Residual income floor",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Principal allocations reconcile to payments",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Interest allocations reconcile to payments",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "No overallocated instalments",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "No pre-funding or future payments",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "No writeoff before default",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "No negative snapshot balances",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Single experiment assignment per borrower",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Snapshot principal reconstructed from cash",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Snapshot DPD reconstructed from unpaid schedule",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "First default EAD and 90-DPD boundary",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Writeoff principal reconstructed from cash",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Experiment eligibility and 14-day outcomes",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Principal ledger conservation",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Transition destinations resolved",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "Average daily balance independently summed",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    }
+  ],
+  "all_passed": true
+}

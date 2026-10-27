@@ -1,0 +1,63 @@
+{
+  "seed": 27102026,
+  "applications": 50000,
+  "origination_start": "2024-01-01",
+  "origination_end": "2025-06-30",
+  "observation_end": "2026-06-30",
+  "default_dashboard_date": "2025-06-30",
+  "synthetic": true,
+  "tables": {
+    "borrowers": {
+      "rows": 31968,
+      "sha256": "361953715381b4ee0164b76264fd680b735327854e538de7eea43b4dc2c91b3e"
+    },
+    "applications": {
+      "rows": 50000,
+      "sha256": "5388570c021b86366f88b787c87bedfb02bbcb66c3e7a6f5d852b2dbd91bd7ec"
+    },
+    "income_observations": {
+      "rows": 146406,
+      "sha256": "6c1f8444fe09a8980c70fc53c28e8787ba9e81a741874c7f5245aa2bad3cc6c3"
+    },
+    "loans": {
+      "rows": 22404,
+      "sha256": "dce4b61c31ffb4f4ad52551def077d3fcda085fd31a6b717ca1399150bb998a3"
+    },
+    "repayment_schedule": {
+      "rows": 56674,
+      "sha256": "9d9ec64c23fc224813bae06ff0ddd19b76ebd592e61f42ff2f2de226b4ba169c"
+    },
+    "payments": {
+      "rows": 58357,
+      "sha256": "7fd5b8a4e9f4fd6f68b31bca640c251d53aac539d8d46342b3c313c2e5b08005"
+    },
+    "payment_allocations": {
+      "rows": 58740,
+      "sha256": "d8ccd94d7834ab8c80ada7c098bda67ed7ddf54b713316425f7ac3db3eda9be5"
+    },
+    "loan_snapshots": {
+      "rows": 88659,
+      "sha256": "4acc8aeadd5a0f938e0dd2a0c3cb508b0b3df58f7e7fe6629ac6528dc63c2282"
+    },
+    "loan_age_outcomes": {
+      "rows": 156828,
+      "sha256": "e84968937a3578e4b730d7e0e63ddf7e7c6e40e2e09d186f9dfc4c87900e627e"
+    },
+    "collection_assignments": {
+      "rows": 5110,
+      "sha256": "6a78b0bdfa950abbe7c6c4f95e42495e81c676bc0038d58877f2aecff793506c"
+    },
+    "loan_costs": {
+      "rows": 84188,
+      "sha256": "f8b70ddd952fb484c9e5ffb345b872c2a9bee197d2b39914dd80a56f0e677122"
+    },
+    "principal_events": {
+      "rows": 78039,
+      "sha256": "874475b75051cb69b7af0df9d64ade585602ca798f6410c072ff77cc959bc5a6"
+    },
+    "simulation_truth": {
+      "rows": 22404,
+      "sha256": "67188eef925183dded3fc7aa3dc3df4e2462dbcf898f11032d54078f81d369cc"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "model": {
+    "training_loans": 10151,
+    "test_loans": 4701,
+    "training_end": "2024-09-30",
+    "test_end": "2024-12-31",
+    "outcomes_known_by": "2025-06-30",
+    "auc": 0.6284329226,
+    "brier": 0.07714136543,
+    "log_loss": 0.2867663977,
+    "observed_default_rate": 0.08508827909,
+    "predicted_default_rate": 0.06416294814,
+    "training_min_score": 640,
+    "test_min_score": 610,
+    "features": [
+      "score/100",
+      "log(monthly income naira)",
+      "existing debt / income",
+      "total repayment / income",
+      "term months",
+      "repeat borrower"
+    ],
+    "calibration": [
+      {
+        "predicted": 0.03404537134,
+        "observed": 0.05207226355,
+        "n": 941
+      },
+      {
+        "predicted": 0.04838249285,
+        "observed": 0.05106382979,
+        "n": 940
+      },
+      {
+        "predicted": 0.06154494505,
+        "observed": 0.07872340426,
+        "n": 940
+      },
+      {
+        "predicted": 0.07691367526,
+        "observed": 0.1053191489,
+        "n": 940
+      },
+      {
+        "predicted": 0.0999602962,
+        "observed": 0.1382978723,
+        "n": 940
+      }
+    ]
+  },
+  "loss_parameters": {
+    "1": {
+      "n": 53,
+      "ead_factor": 1.0,
+      "lgd": 0.819447436
+    },
+    "2": {
+      "n": 117,
+      "ead_factor": 0.7777777778,
+      "lgd": 0.7895143663
+    },
+    "3": {
+      "n": 285,
+      "ead_factor": 0.6959064017,
+      "lgd": 0.7850422951
+    }
+  },
+  "acceptance_funding_conversion": 0.8765192717
+}

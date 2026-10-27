@@ -1,0 +1,26 @@
+{
+  "viewport": {
+    "width": 1363,
+    "height": 936
+  },
+  "all_six_workspaces_rendered": true,
+  "vertical_document_scroll": false,
+  "verified_controls": [
+    "score cut-off 640 to 620",
+    "funding 20% to 18%",
+    "repayment ceiling 25% to 26%",
+    "borrower segment all to repeat",
+    "observation date June to January 2025",
+    "definitions open and close",
+    "policy reset",
+    "horizontal workspace navigation"
+  ],
+  "not_manually_exercised": [
+    "scatterplot brush drag",
+    "histogram threshold drag",
+    "loan-age playback"
+  ],
+  "policy_checks": 123,
+  "data_checks": 25,
+  "published_to_github": false
+}

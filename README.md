@@ -4,6 +4,8 @@ I built this project to look at what happens when a lender tries to approve more
 
 The dashboard follows that decision from the application stage through to repayments, collections and profitability. It uses D3.js, with SQL and Python behind the analysis.
 
+![The Credit Trade-off dashboard](docs/dashboard-preview.jpg)
+
 ### What you can explore
 
 - **Portfolio:** loan balances, disbursements and overdue repayments.

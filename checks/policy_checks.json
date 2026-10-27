@@ -1,0 +1,628 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "check": "Default and explicit baseline agree",
+      "passed": true
+    },
+    {
+      "check": "Stricter cut-off does not increase approvals",
+      "passed": true
+    },
+    {
+      "check": "Looser cut-off does not reduce approvals",
+      "passed": true
+    },
+    {
+      "check": "Funding changes no underwriting decision",
+      "passed": true
+    },
+    {
+      "check": "Lower funding cost raises contribution",
+      "passed": true
+    },
+    {
+      "check": "Loss stress leaves principal unchanged",
+      "passed": true
+    },
+    {
+      "check": "Loss stress lowers contribution",
+      "passed": true
+    },
+    {
+      "check": "Contribution bridge reconciles",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals all / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps all / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals first_loan / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps first_loan / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 580 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 580 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 580 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 620 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 620 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 620 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 640 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 640 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 640 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 700 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 700 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 700 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 740 / 0.15",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 740 / 0.25",
+      "passed": true
+    },
+    {
+      "check": "Finite totals repeat / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Affordability caps repeat / 740 / 0.4",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 1",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 2",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 3",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 4",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 5",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 6",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 7",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 8",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 9",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 10",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 11",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 12",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 13",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 14",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 15",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 16",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 17",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 18",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 19",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 20",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 21",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 22",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 23",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 24",
+      "passed": true
+    },
+    {
+      "check": "Browser PD matches scikit-learn 25",
+      "passed": true
+    }
+  ],
+  "baseline": {
+    "cutoff": 640,
+    "ceiling": 0.25,
+    "approval": 0.5404506834133728,
+    "approved": 4389,
+    "principal": 239007521.96860796,
+    "expectedLoss": 10144190.00906815,
+    "lossRate": 0.04244297386757778,
+    "revenue": 18309892.243562244,
+    "funding": 7703419.781017465,
+    "acquisition": 4850219.389951761,
+    "servicing": 1938510.0212916343,
+    "collections": 164477.87565668472,
+    "contribution": -6490924.833423451,
+    "margin": -0.35450371564615074
+  },
+  "scenarios": [
+    {
+      "cutoff": 640,
+      "ceiling": 0.25,
+      "approval": 0.5404506834133728,
+      "approved": 4389,
+      "principal": 239007521.96860796,
+      "expectedLoss": 10144190.00906815,
+      "lossRate": 0.04244297386757778,
+      "revenue": 18309892.243562244,
+      "funding": 7703419.781017465,
+      "acquisition": 4850219.389951761,
+      "servicing": 1938510.0212916343,
+      "collections": 164477.87565668472,
+      "contribution": -6490924.833423451,
+      "margin": -0.35450371564615074
+    },
+    {
+      "cutoff": 620,
+      "ceiling": 0.25,
+      "approval": 0.629848540820096,
+      "approved": 5115,
+      "principal": 275525944.3854426,
+      "expectedLoss": 12837384.484112114,
+      "lossRate": 0.046592289204364215,
+      "revenue": 21058854.12823911,
+      "funding": 8937217.433663549,
+      "acquisition": 5739009.931455277,
+      "servicing": 2261244.4171316177,
+      "collections": 204375.4945167789,
+      "contribution": -8920377.632640226,
+      "margin": -0.42359273578320406
+    },
+    {
+      "cutoff": 660,
+      "ceiling": 0.25,
+      "approval": 0.42950375569511146,
+      "approved": 3488,
+      "principal": 194180573.37533003,
+      "expectedLoss": 7409501.615308681,
+      "lossRate": 0.038157790383010745,
+      "revenue": 14925183.054560361,
+      "funding": 6221444.277733893,
+      "acquisition": 3793575.4079176285,
+      "servicing": 1542849.22204628,
+      "collections": 121548.66418983483,
+      "contribution": -4163736.1326359552,
+      "margin": -0.27897387371498494
+    },
+    {
+      "cutoff": 680,
+      "ceiling": 0.25,
+      "approval": 0.30821327422731193,
+      "approved": 2503,
+      "principal": 141190600.80470747,
+      "expectedLoss": 4724932.2043426465,
+      "lossRate": 0.03346492030923571,
+      "revenue": 10922429.672652686,
+      "funding": 4503222.105304892,
+      "acquisition": 2669439.4419623893,
+      "servicing": 1112302.9557872678,
+      "collections": 80486.6101262758,
+      "contribution": -2167953.6448707855,
+      "margin": -0.198486390834711
+    },
+    {
+      "cutoff": 700,
+      "ceiling": 0.25,
+      "approval": 0.20022164758034725,
+      "approved": 1626,
+      "principal": 92764664.08182609,
+      "expectedLoss": 2726138.0641755415,
+      "lossRate": 0.02938767785296848,
+      "revenue": 7162388.010273705,
+      "funding": 2931308.899122137,
+      "acquisition": 1691682.194381034,
+      "servicing": 718570.4989396527,
+      "collections": 48352.96307890369,
+      "contribution": -953664.6094235638,
+      "margin": -0.13314897322731337
+    },
+    {
+      "cutoff": 720,
+      "ceiling": 0.25,
+      "approval": 0.10651397611131634,
+      "approved": 865,
+      "principal": 48827382.54932018,
+      "expectedLoss": 1230885.5583801437,
+      "lossRate": 0.025208919547076585,
+      "revenue": 3803782.4887261014,
+      "funding": 1540009.984778891,
+      "acquisition": 863809.7422603476,
+      "servicing": 381987.098606861,
+      "collections": 23683.282579482748,
+      "contribution": -236593.1778796248,
+      "margin": -0.06219944977949057
+    },
+    {
+      "cutoff": 740,
+      "ceiling": 0.25,
+      "approval": 0.04679226696219677,
+      "approved": 380,
+      "principal": 20680595.696489796,
+      "expectedLoss": 443263.6572959187,
+      "lossRate": 0.0214337954187246,
+      "revenue": 1604635.9831199457,
+      "funding": 645597.9850943853,
+      "acquisition": 364632.0170271977,
+      "servicing": 166889.26933167985,
+      "collections": 9598.679227836174,
+      "contribution": -25345.624857072115,
+      "margin": -0.015795248968424474
+    }
+  ],
+  "planning_loss_multiplier": 1.33
+}
