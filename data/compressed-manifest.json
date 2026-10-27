@@ -1,0 +1,196 @@
+{
+  "format": "gzip split into 262144-byte parts",
+  "restore": "python src/unpack_data.py",
+  "files": [
+    {
+      "file": "applications.csv",
+      "sha256": "5388570c021b86366f88b787c87bedfb02bbcb66c3e7a6f5d852b2dbd91bd7ec",
+      "parts": [
+        {
+          "name": "applications.csv.gz.part001",
+          "sha256": "e7f26834ae3c7fa730da268a5de2f8d91e67026ab2b6cc7e23fbf72511bf7c35"
+        },
+        {
+          "name": "applications.csv.gz.part002",
+          "sha256": "592729386664f9506567cc08b807996efc228b474e2960b8ff2c3b6771c8971d"
+        },
+        {
+          "name": "applications.csv.gz.part003",
+          "sha256": "836b0c059768f82856078db5aa420338d020d45dbd2e9a9005d86e23c38824bd"
+        },
+        {
+          "name": "applications.csv.gz.part004",
+          "sha256": "55574e753b4633520fdd244eb4491d5f9079225e9e5af4e2ef258ca59385bcef"
+        },
+        {
+          "name": "applications.csv.gz.part005",
+          "sha256": "7a04000d914de33c8cccd07fa46da46789cb1c61a54c6375df321e16cbf14827"
+        },
+        {
+          "name": "applications.csv.gz.part006",
+          "sha256": "1c7539c81b68c9c6a7b2d961610d12101bc463831f13c9469d747b3e23260b2c"
+        }
+      ]
+    },
+    {
+      "file": "borrowers.csv",
+      "sha256": "361953715381b4ee0164b76264fd680b735327854e538de7eea43b4dc2c91b3e",
+      "parts": [
+        {
+          "name": "borrowers.csv.gz.part001",
+          "sha256": "21a6d084dbdbf44dfd5ce50fec90fad5e81a924e4fe85bd03b8fe98cd84e5a5f"
+        }
+      ]
+    },
+    {
+      "file": "collection_assignments.csv",
+      "sha256": "6a78b0bdfa950abbe7c6c4f95e42495e81c676bc0038d58877f2aecff793506c",
+      "parts": [
+        {
+          "name": "collection_assignments.csv.gz.part001",
+          "sha256": "eb6a846ac83a73a27824f0a882a5610ed6a3bbdb1d9c178084cc2d7c138f5fc7"
+        }
+      ]
+    },
+    {
+      "file": "income_observations.csv",
+      "sha256": "6c1f8444fe09a8980c70fc53c28e8787ba9e81a741874c7f5245aa2bad3cc6c3",
+      "parts": [
+        {
+          "name": "income_observations.csv.gz.part001",
+          "sha256": "e6df2f43d25e5651b8a9eac5cef568ef0b973b5ba2227b392de339b58bf33b33"
+        },
+        {
+          "name": "income_observations.csv.gz.part002",
+          "sha256": "59c0de454b87e0894132eff04b779b2a3a45e179dc7615d8b5dbc95e91543bf6"
+        },
+        {
+          "name": "income_observations.csv.gz.part003",
+          "sha256": "332c58d667c6660e50a231779e3434e45335e1db68b8e52fae7cc44ddc406fe5"
+        },
+        {
+          "name": "income_observations.csv.gz.part004",
+          "sha256": "806bc2f5209b128e680cdb26b6f478da9a1a4c5aceae24788c38486be1ed10f5"
+        },
+        {
+          "name": "income_observations.csv.gz.part005",
+          "sha256": "fb244896d0976ba4fc42c776d386cc539fdca3cd23d590b62780f68a392a1793"
+        }
+      ]
+    },
+    {
+      "file": "loan_age_outcomes.csv",
+      "sha256": "e84968937a3578e4b730d7e0e63ddf7e7c6e40e2e09d186f9dfc4c87900e627e",
+      "parts": [
+        {
+          "name": "loan_age_outcomes.csv.gz.part001",
+          "sha256": "b852f1cfb574ee6071e411e668f61d3e2519a9d3e3ecfa0cf2424270a31dee90"
+        },
+        {
+          "name": "loan_age_outcomes.csv.gz.part002",
+          "sha256": "abb47ab2f890b228f701438813be628d903d9dd4a35343f3bb85688f17ca4f83"
+        }
+      ]
+    },
+    {
+      "file": "loan_costs.csv",
+      "sha256": "f8b70ddd952fb484c9e5ffb345b872c2a9bee197d2b39914dd80a56f0e677122",
+      "parts": [
+        {
+          "name": "loan_costs.csv.gz.part001",
+          "sha256": "841bbbf2c7a4c810979f6cde6e665725ae5966f222b97331ea50d616efddf8ea"
+        }
+      ]
+    },
+    {
+      "file": "loan_snapshots.csv",
+      "sha256": "4acc8aeadd5a0f938e0dd2a0c3cb508b0b3df58f7e7fe6629ac6528dc63c2282",
+      "parts": [
+        {
+          "name": "loan_snapshots.csv.gz.part001",
+          "sha256": "6851a294019d18656899d0295127a12218611d70284aa35c72c80f220d57921b"
+        },
+        {
+          "name": "loan_snapshots.csv.gz.part002",
+          "sha256": "f24139235da74d128f3ab516f426ac6d6b93c1f21c77d976c987c26619023a99"
+        }
+      ]
+    },
+    {
+      "file": "loans.csv",
+      "sha256": "dce4b61c31ffb4f4ad52551def077d3fcda085fd31a6b717ca1399150bb998a3",
+      "parts": [
+        {
+          "name": "loans.csv.gz.part001",
+          "sha256": "8b1022865fc529ee22b59b05628cf50f366c9959ccb7b46bfb58152feefc4ac2"
+        }
+      ]
+    },
+    {
+      "file": "payment_allocations.csv",
+      "sha256": "d8ccd94d7834ab8c80ada7c098bda67ed7ddf54b713316425f7ac3db3eda9be5",
+      "parts": [
+        {
+          "name": "payment_allocations.csv.gz.part001",
+          "sha256": "89555739c36e54ee140835847f892cffd6072c0506385a223f2bcb8b95e61341"
+        },
+        {
+          "name": "payment_allocations.csv.gz.part002",
+          "sha256": "26b699acc4d797264db907c93206749e7960d70d40aed05767ec50bb3a99e0b6"
+        }
+      ]
+    },
+    {
+      "file": "payments.csv",
+      "sha256": "7fd5b8a4e9f4fd6f68b31bca640c251d53aac539d8d46342b3c313c2e5b08005",
+      "parts": [
+        {
+          "name": "payments.csv.gz.part001",
+          "sha256": "cfc7a318274357777de01aa4140b1f16bc3f2d9fd323e1f8b3cd6af47ec1b5b3"
+        },
+        {
+          "name": "payments.csv.gz.part002",
+          "sha256": "e32f0352325c7fd4cd384d683f79108f87b7570d7d659897631a0118f0a522d3"
+        }
+      ]
+    },
+    {
+      "file": "principal_events.csv",
+      "sha256": "874475b75051cb69b7af0df9d64ade585602ca798f6410c072ff77cc959bc5a6",
+      "parts": [
+        {
+          "name": "principal_events.csv.gz.part001",
+          "sha256": "68a04b54f868eec8befc21a17d992db93842e73d47648bc65030f2eb91900bb9"
+        },
+        {
+          "name": "principal_events.csv.gz.part002",
+          "sha256": "25e4616221ce36f21624db3bc037574a79c7f457ea7c442bafbfdbd4b410c519"
+        }
+      ]
+    },
+    {
+      "file": "repayment_schedule.csv",
+      "sha256": "9d9ec64c23fc224813bae06ff0ddd19b76ebd592e61f42ff2f2de226b4ba169c",
+      "parts": [
+        {
+          "name": "repayment_schedule.csv.gz.part001",
+          "sha256": "e24e02f79a828047953e7c6e4fa0ae188bfb524327f20e13888a363faefda69d"
+        },
+        {
+          "name": "repayment_schedule.csv.gz.part002",
+          "sha256": "b20c2899242d78d5e34616b16642fdfa0e746ad96e5afa67aabb4b7beeaaf8d1"
+        }
+      ]
+    },
+    {
+      "file": "simulation_truth.csv",
+      "sha256": "67188eef925183dded3fc7aa3dc3df4e2462dbcf898f11032d54078f81d369cc",
+      "parts": [
+        {
+          "name": "simulation_truth.csv.gz.part001",
+          "sha256": "c873ee85ba2b7e4067bdbb1dd034507674d08dba197719b2e753a49b02f9c877"
+        }
+      ]
+    }
+  ]
+}

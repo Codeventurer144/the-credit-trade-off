@@ -23,6 +23,8 @@ One result I found interesting was that lowering the score cut-off from 640 to 6
 
 The data is synthetic: 50,000 applications and 22,404 funded loans. It was generated so that applications, repayment schedules and actual payments can be followed through the whole loan lifecycle. It contains no Kuda customer data, and the product rules and costs are project assumptions.
 
+The CSV tables are stored compressed in `data/`. Running `python src/unpack_data.py` restores the original files.
+
 I have kept the workings in [calculations.md](calculations.md), and explained my choices and the limits of the analysis in [thought-process.md](thought-process.md). The model also underestimates default in the later test period; those results are included.
 
 To run it locally, download the project and open `index.html`. The dashboard assets are included, so it works offline too. The Python scripts and SQL queries are there for anyone who wants to reproduce the analysis.
